@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import myImage from "../../69334.jpg";
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-6 md:px-12 lg:px-24">
@@ -15,7 +15,7 @@ const About: React.FC = () => {
               digital experiences. My journey in tech began during my undergraduate studies 
               in Information Science and Engineering, and I've since gained over 3 years of 
               experience as a Full-Stack Developer.
-            </p>
+            </p> 
             <p className="mb-4">
               Currently, I'm pursuing a Master's in Computer Information Systems at Colorado 
               State University, while also bringing real-world development expertise from my 
@@ -31,7 +31,7 @@ const About: React.FC = () => {
             </p>
             <p>
               Outside of coding, I'm passionate about AI applications, data visualization, 
-              participating in hackathons (proud winner of one!), and contributing to 
+              participating in hackathons (prßoud winner of one!), and contributing to 
               open-source projects.
             </p>
           </div>
@@ -39,7 +39,7 @@ const About: React.FC = () => {
             <div className="relative z-10 rounded overflow-hidden">
               <div className="absolute inset-0 bg-highlight/20 z-10 rounded hover:bg-transparent transition-colors duration-300"></div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                src={myImage}
                 alt="Ritik Katkam" 
                 className="grayscale hover:grayscale-0 transition-all duration-300 object-cover w-full h-full rounded"
               />

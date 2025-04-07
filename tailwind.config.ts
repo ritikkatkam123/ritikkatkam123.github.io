@@ -64,16 +64,16 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				navy: {
-					DEFAULT: '#0A192F',
-					light: '#172A45',
-					lighter: '#303C55'
+					DEFAULT: '#f1f5f9',
+					light: '#f8fafc',
+					lighter: '#e2e8f0'
 				},
 				slate: {
-					DEFAULT: '#8892B0',
-					light: '#A8B2D1',
-					lighter: '#CCD6F6'
+					DEFAULT: '#64748b',
+					light: '#94a3b8',
+					lighter: '#334155'
 				},
-				highlight: '#64FFDA'
+				highlight: '#38b2ac'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

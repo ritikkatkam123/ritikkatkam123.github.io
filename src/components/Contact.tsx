@@ -22,6 +22,29 @@ const Contact: React.FC = () => {
             Say Hello
           </a>
         </div>
+        <div className="flex flex-col items-center mb-8">
+          <h4 className="text-slate text-lg font-mono mb-4">My Resumes</h4>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <a
+              href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button inline-flex items-center"
+            >
+              <FileText size={16} className="mr-2" />
+              Resume Page 1
+            </a>
+            <a
+              href="/lovable-uploads/9bada09d-53a0-4914-a5bd-7398ccd31b0c.png"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="button inline-flex items-center"
+            >
+              <FileText size={16} className="mr-2" />
+              Resume Page 2
+            </a>
+          </div>
+        </div>
         <div className="flex justify-center space-x-6">
           <a
             href="https://github.com"
@@ -47,15 +70,6 @@ const Contact: React.FC = () => {
             className="text-slate hover:text-highlight transition-colors"
           >
             <Mail size={22} />
-          </a>
-          <a
-            href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Resume"
-            className="text-slate hover:text-highlight transition-colors"
-          >
-            <FileText size={22} />
           </a>
         </div>
       </div>

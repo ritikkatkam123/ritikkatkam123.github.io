@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { Menu, X } from "lucide-react";
+import { Menu, X, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -87,11 +87,12 @@ const Navbar: React.FC = () => {
               ))}
             </ul>
             <a
-              href="/Resume-Ritik-Katkam.pdf"
+              href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
               target="_blank"
               rel="noopener noreferrer"
-              className="button ml-4"
+              className="button ml-4 inline-flex items-center"
             >
+              <FileText size={16} className="mr-2" />
               Resume
             </a>
           </div>
@@ -118,12 +119,13 @@ const Navbar: React.FC = () => {
               ))}
             </ul>
             <a
-              href="/Resume-Ritik-Katkam.pdf"
+              href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
               target="_blank"
               rel="noopener noreferrer"
-              className="button mt-8"
+              className="button mt-8 inline-flex items-center"
               onClick={() => setMobileMenuOpen(false)}
             >
+              <FileText size={16} className="mr-2" />
               Resume
             </a>
           </div>

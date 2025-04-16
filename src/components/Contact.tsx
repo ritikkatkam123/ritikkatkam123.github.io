@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Github, Linkedin, Mail, User } from "lucide-react";
+import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 const Contact: React.FC = () => {
   return (
@@ -49,13 +49,13 @@ const Contact: React.FC = () => {
             <Mail size={22} />
           </a>
           <a
-            href="/Resume-Ritik-Katkam.pdf"
+            href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Resume"
             className="text-slate hover:text-highlight transition-colors"
           >
-            <User size={22} />
+            <FileText size={22} />
           </a>
         </div>
       </div>

@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                     Resume Page 1
                   </a>
                   <a
-                    href="/lovable-uploads/9bada09d-53a0-4914-a5bd-7398ccd31b0c.png"
+                    href="/lovable-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whitespace-nowrap px-4 py-2 hover:bg-slate-100 rounded text-slate-800 text-sm"
@@ -155,7 +155,7 @@ const Navbar: React.FC = () => {
                 Resume Page 1
               </a>
               <a
-                href="/lovable-uploads/9bada09d-53a0-4914-a5bd-7398ccd31b0c.png"
+                href="/lovable-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button inline-flex items-center"

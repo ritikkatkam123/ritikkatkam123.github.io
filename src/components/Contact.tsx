@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
           <h4 className="text-slate text-lg font-mono mb-4">My Resumes</h4>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
+              href="/lovable-uploads/resume1.png"
               target="_blank"
               rel="noopener noreferrer"
               className="button inline-flex items-center"
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
               Resume Page 1
             </a>
             <a
-              href="/lovable-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
+              href="/lovable-uploads/resume2.png"
               target="_blank" 
               rel="noopener noreferrer"
               className="button inline-flex items-center"

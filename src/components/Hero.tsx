@@ -25,6 +25,7 @@ const Hero: React.FC = () => {
         </h2>
         <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-slate-600 mb-8">
           I build things for the web.
+          
         </h3>
         <p className="text-slate-600 text-lg max-w-2xl mb-12">
           I'm a software engineer specializing in building exceptional digital experiences. 

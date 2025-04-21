@@ -123,7 +123,7 @@ const Projects: React.FC = () => {
           ))}
         </div>
         
-        <h3 className="text-center font-mono text-xl text-slate-800 mt-32 mb-12">
+        {/* <h3 className="text-center font-mono text-xl text-slate-800 mt-32 mb-12">
           Other Noteworthy Projects
         </h3>
         
@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

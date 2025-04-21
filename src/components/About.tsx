@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import myImage from "../../69334.jpg";
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-6 md:px-12 lg:px-24">
@@ -39,7 +39,7 @@ const About: React.FC = () => {
             <div className="relative z-10 rounded overflow-hidden">
               <div className="absolute inset-0 bg-highlight/20 z-10 rounded hover:bg-transparent transition-colors duration-300"></div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                src={myImage}
                 alt="Ritik Katkam" 
                 className="grayscale hover:grayscale-0 transition-all duration-300 object-cover w-full h-full rounded"
               />

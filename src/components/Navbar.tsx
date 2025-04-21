@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
               {showResumes && (
                 <div className="absolute right-0 mt-2 p-2 bg-white rounded shadow-md z-50 flex flex-col gap-2">
                   <a
-                    href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
+                    href="/lovable-uploads/resume1.png"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whitespace-nowrap px-4 py-2 hover:bg-slate-100 rounded text-slate-800 text-sm"
@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                     Resume Page 1
                   </a>
                   <a
-                    href="/lovable-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
+                    href="/lovable-uploads/resume2.png"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whitespace-nowrap px-4 py-2 hover:bg-slate-100 rounded text-slate-800 text-sm"

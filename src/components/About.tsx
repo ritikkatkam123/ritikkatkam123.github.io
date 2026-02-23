@@ -1,6 +1,6 @@
 
 import React from "react";
-import myImage from "../../69334.jpg";
+import myImage from "../../69334.png";
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 px-6 md:px-12 lg:px-24">

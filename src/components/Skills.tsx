@@ -10,16 +10,21 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     title: "Languages & Frontend",
-    skills: ["JavaScript", "HTML", "CSS", "Java", "Python", "React.js", "Vue.js"]
+    skills: ["JavaScript", "HTML", "CSS", "Java", "Python", "React.js", "Vue.js", "Responsive Design", "Bootstrap"]
   },
   {
     title: "Backend & Databases",
-    skills: ["Spring Boot", "MySQL", "PostgreSQL", "REST APIs"]
+    skills: ["Spring Boot", "MySQL", "PostgreSQL", "REST APIs", "MVC Architecture", "Microservices"]
   },
   {
     title: "Tools & Platforms",
-    skills: ["Git", "Azure DevOps", "Power BI", "CI/CD", "Agile", "NLTK", "LSTM"]
+    skills: ["Git", "Azure DevOps", "AWS", "Jira", "Power BI", "CI/CD", "Agile", "NLTK", "LSTM", "bitbucket", "SonarQube"]
+  },
+  {
+    title: "Developement Practices and Domain Knowledge",
+    skills: ["Agile/Scrum", "Unit Testing", "Documentation", "Web Accessibility", "SDLC", "Open Source", "OOPs", "Product Information Management (PIM)", "Financial & Accounting Systems", "SOA", "SaaS Platforms"]
   }
+
 ];
 
 const Skills: React.FC = () => {

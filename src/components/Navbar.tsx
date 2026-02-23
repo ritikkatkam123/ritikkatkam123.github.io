@@ -99,22 +99,13 @@ const Navbar: React.FC = () => {
               {showResumes && (
                 <div className="absolute right-0 mt-2 p-2 bg-white rounded shadow-md z-50 flex flex-col gap-2">
                   <a
-                    href="/lovable-uploads/resume1.png"
+                    href="/portfolio-uploads/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="whitespace-nowrap px-4 py-2 hover:bg-slate-100 rounded text-slate-800 text-sm"
                     onClick={() => setShowResumes(false)}
                   >
-                    Resume Page 1
-                  </a>
-                  <a
-                    href="/lovable-uploads/resume2.png"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="whitespace-nowrap px-4 py-2 hover:bg-slate-100 rounded text-slate-800 text-sm"
-                    onClick={() => setShowResumes(false)}
-                  >
-                    Resume Page 2
+                    Resume
                   </a>
                 </div>
               )}
@@ -145,17 +136,17 @@ const Navbar: React.FC = () => {
             <div className="flex flex-col items-center gap-3 mt-8">
               <h4 className="font-mono text-slate-600 text-sm mb-2">My Resumes</h4>
               <a
-                href="/lovable-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
+                href="/portfolio-uploads/2f234822-1f07-4b18-bdbb-4b78ebd2fddb.png"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button inline-flex items-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <FileText size={16} className="mr-2" />
-                Resume Page 1
+                Resume
               </a>
               <a
-                href="/lovable-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
+                href="/portfolio-uploads/76162ff1-dd41-4b01-9c68-bb51200bf5a5.png"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button inline-flex items-center"

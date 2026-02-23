@@ -14,28 +14,26 @@ const experiences: ExperienceItem[] = [
   {
     company: "Insightsoftware",
     title: "Software Engineer (Full-Stack)",
-    range: "Nov 2023 - Jul 2024",
+    range: "Dec 2021 - Jul 2024",
     duties: [
-      "Migrated the UI from FreeMarker templates to Vue.js, improving page load speed by ~40% for large datasets.",
-      "Took over and maintained a multi-variant product suite within 6 months, reducing handover and ramp-up time by ~30%.",
-      "Created reusable Vue.js components across banking, insurance, and IFRS17 modules.",
-      "Documented code thoroughly with ticket references and optimization notes, improving developer onboarding time.",
-      "Worked in an Agile team environment using Git, CI/CD pipelines, and RESTful APIs to deploy scalable microservices.",
-    ],
-    techStack: "Spring Boot, Vue.js, PostgreSQL, MySQL",
+      "Engineered and maintained enterprise PIM and accounting platforms with React.js, Vue.js, Spring Boot, PostgreSQL, and MySQL, enabling accurate workflow processing for Fortune 500 financial and manufacturing clients, which reduced data-entry errors and improved reporting reliability",
+      "Reduced frontend defects and production rework by 35% through implementation of comprehensive unit testing, rigorous code reviews, and proactive refactoring of legacy code patterns.",
+      "Led integration of in-house data visualization product by designing React UI components and consuming REST APIs, increasing feature adoption by 40% among enterprise customers.",
+      "Spearheaded modernization initiative to migrate legacy jQuery-based application (15,000+ lines) to React.js, improving page load performance by 25%, reducing technical debt, and accelerating feature development velocity.",
+      "Rapidly onboarded to a newly formed team and achieved full product ownership within 6 months for a complex financial platform serving Banking, IFRS17, Part VII Transfer, and Insurance verticals through a unified interface.",
+      "Developed and integrated Spring Boot RESTful APIs with backend microservices, ensuring seamless data flow between frontend components and backend systems while maintaining strict compliance standards",
+      "Orchestrated release management and deployed software across distributed QA and production environments using Git and Azure DevOps, implementing branching strategies for zero-downtime TC, RC, and GA builds"
+    ]
   },
   {
-    company: "Insightsoftware",
-    title: "Front-End Developer",
-    range: "Dec 2021 - Nov 2023",
+    company: "GoVise Technologies (now CLO Virtual Fashion)",
+    title: "Software Engineering Intern",
+    range: "Sep 2020 - Nov 2020",
     duties: [
-      "Delivered a key feature integrating in-house data visualization tools via APIs, enhancing client reporting and contributing to a ~39% boost in customer satisfaction and retention.",
-      "Migrated 10+ legacy modules from jQuery to React.js, improving performance and maintainability, leading to fewer bug reports.",
-      "Managed virtual machines and software build pipelines (TC, RC, GA), reducing deployment errors through improved versioning and QA collaboration.",
-      "Followed structured Git branching (feature, bugfix, release), ensuring cleaner merges and reducing rollback.",
-    ],
-    techStack: "React.js, JavaScript, jQuery, Azure DevOps",
-  },
+      "Developed a production-deployed web application for fashion industry clients using Java Servlets, JSP, MySQL, and three.js, enabling interactive 3D garment visualization directly in the browser",
+      "Implemented real-time 3D model rendering with three.js and integrated backend services to manage and efficiently serve 3D assets, delivering smooth client-facing applications that improved user experience and increased client satisfaction."
+    ]
+  }
 ];
 
 const Experience: React.FC = () => {
@@ -62,7 +60,7 @@ const Experience: React.FC = () => {
                 )}
                 onClick={() => setActiveTab(idx)}
               >
-                {exp.company} - {exp.title.split(' ')[0]}
+                {exp.company}
               </button>
             ))}
           </div>

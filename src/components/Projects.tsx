@@ -65,7 +65,8 @@ const Projects: React.FC = () => {
                 
                 <div className={cn(
                   "bg-white p-6 rounded shadow-md",
-                  i % 2 === 1 && "md:ml-auto"
+                  i % 2 === 1 && "md:ml-auto",
+                  project.title === "Intelligent Examination System" && "text-left md:text-left"
                 )}>
                   <ul className="space-y-2 text-slate-600">
                     {project.description.map((item, idx) => (

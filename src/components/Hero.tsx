@@ -24,15 +24,13 @@ const Hero: React.FC = () => {
           Ritik Katkam.
         </h2>
         <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-slate-600 mb-8">
-          I build things for the web.
+          I build digital experiences that people actually enjoy using.
           
         </h3>
         <p className="text-slate-600 text-lg max-w-2xl mb-12">
-          I'm a software engineer specializing in building exceptional digital experiences. 
-          Currently, I'm focused on expanding my knowledge in Computer Information Systems 
-          at Colorado State University while applying my 3 years of industry experience 
-          building accessible, human-centered products.
-        </p>
+          
+I'm a full-stack software engineer with 3 years of experience creating enterprise applications for Fortune 500 clients. I recently completed my Master's in Computer Information Systems at Colorado State University and I'm actively seeking my next challenge in software engineering.
+ </p>
         <a 
           href="#projects" 
           className="button inline-flex items-center"

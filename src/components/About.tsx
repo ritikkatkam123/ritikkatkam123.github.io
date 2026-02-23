@@ -11,28 +11,19 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 text-slate">
             <p className="mb-4">
-              Hello! I'm Ritik, a software engineer passionate about creating exceptional 
-              digital experiences. My journey in tech began during my undergraduate studies 
-              in Information Science and Engineering, and I've since gained over 3 years of 
-              experience as a Full-Stack Developer.
+              Hey! I'm Ritik, a full-stack software engineer who loves building products people actually want to use.
             </p>
             <p className="mb-4">
-              Currently, I'm pursuing a Master's in Computer Information Systems at Colorado 
-              State University, while also bringing real-world development expertise from my 
-              time at Insightsoftware where I've worked on everything from UI migrations to 
-              maintaining multi-variant product suites.
+              I spent 3 years at Insightsoftware building enterprise applications for Fortune 500 clients—migrating legacy systems to modern frameworks, integrating APIs, and shipping features that increased adoption by 40% and reduced defects by 35%. I've worked across the full stack with React.js, Vue.js, Spring Boot, and PostgreSQL, and I'm comfortable owning projects from design through deployment.
             </p>
             <p className="mb-4">
-              I enjoy solving complex problems through clean code and collaboration. 
-              My experience spans across various technologies including React.js, Vue.js, 
-              Spring Boot, and database systems. I'm particularly interested in creating 
-              intuitive interfaces that enhance user experience while maintining robust 
-              functionality.
+              Recently, I won my company's internal hackathon by building an AI-powered document assistant that's now being deployed across 20+ products. That project got me hooked on how AI can solve real problems, not just create demos
             </p>
             <p>
-              Outside of coding, I'm passionate about AI applications, data visualization, 
-              participating in hackathons (proud winner of one!), and contributing to 
-              open-source projects.
+              Right now, I'm finishing my Master's in Computer Information Systems at Colorado State University and actively looking for my next software engineering role where I can keep building, learning, and making an impact.
+            </p>
+            <p>
+              When I'm not coding, you'll find me exploring AI applications, playing cricket, or tinkering with new frameworks. I believe great software comes from understanding what users actually need—not just what they say they want.
             </p>
           </div>
           <div className="relative mx-auto w-full max-w-[300px]">

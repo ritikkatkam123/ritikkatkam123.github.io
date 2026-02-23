@@ -21,7 +21,7 @@ const educationItems: EducationItem[] = [
   {
     school: "Visvesvaraya Technological University",
     degree: "Bachelors in Information Science and Engineering",
-    location: "Belgaum, India",
+    location: "",
     graduationDate: "May 2021"
   }
 ];

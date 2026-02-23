@@ -23,25 +23,16 @@ const Contact: React.FC = () => {
           </a>
         </div>
         <div className="flex flex-col items-center mb-8">
-          <h4 className="text-slate text-lg font-mono mb-4">My Resumes</h4>
+          <h4 className="text-slate text-lg font-mono mb-4">My Resume</h4>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="/lovable-uploads/resume1.png"
+              href="/portfolio-uploads/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="button inline-flex items-center"
             >
               <FileText size={16} className="mr-2" />
-              Resume Page 1
-            </a>
-            <a
-              href="/lovable-uploads/resume2.png"
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="button inline-flex items-center"
-            >
-              <FileText size={16} className="mr-2" />
-              Resume Page 2
+              Resume
             </a>
           </div>
         </div>
